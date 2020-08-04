@@ -1,0 +1,44 @@
+Home
+Hi my name is Mike Kremer and I am an Electrical Engineering student at Boston University. I have loved electronics ever since I was little. I started really getting into electronics when I built my own computer and soldered my own headphone amplifier in High School. At that age I realized I was just putting together parts and kits without knowing what they really did or how they worked. I became resolved to pursue my passion with higher education so that I could design my own electronics. This website is dedicated to strictly my personal projects. None of the projects on this website were school assignments because it's important to me that I develop my passion and trade outside of the classroom. [READ MORE goes to About Me]
+
+About Me
+Within the field of Electrical Engineering I have a wide variety of interests. I like to work on a variety of things from circuit design to power systems to audio engineering. Everyday in class I am exposed to new and excited things. My small Reddit addiction also exposes me to the wide world of amazing things people create. At my core I just want to create. If you are interested in my work inside of the classroom, my resume is linked below and my linkedin is linked at the bottom of this page as well. [DOWNLOAD FULL RESUME {include a last updated thing}]
+ *Engineering interests - PCB design, Digital Design, Audio Engineering
+ *Education
+
+Projects
+ *Have a cool Quote
+Electric Guitar
+Rock on!
+
+This was an incredibly fun project. As a part of my pledge process for Theta Tau, the Professional Co-Ed Engineering Fraternity I am a part of, my pledge class was assigned to create something for the betterment of the fraternity. What could make peoples lives better than a sick guitar?
+
+​
+
+As one of the few electrical engineers on campus I took lead on the electric aspect of the guitar. My friend with much more experience picked what he thought we high quality guitar components while it was up to me to figure out how to wire and solder the inside of the guitar together. Much easier said than done!
+
+​
+
+Because we were operating on a budget we used a guitar that was gifted to us. However, nothing about this guitar was standard. Our standard size guitar components didn't fit inside the pre-cut cavities in the body so me and my friend spent at least two hours just sanding away until we had sufficient space for our parts. Then came the real challenge.
+
+​
+
+Wiring the pickups (the components which turn the mechanical vibrations on the strings into electric waves by use of magnets) was simple enough, ground each pickup to the metal body bracket and solder each high lead to the volume knobs. then it got difficult.
+
+​
+
+Guitars all have a switch with various positions so that the sound profile of the guitar can change, however our guitar switch was anything except standard. A standard 5 way switch has 8 mounting points, ours had 7. This meant I had to stare at countless diagrams for wiring guitar switches and make my best guess for what wiring configuration would actually produce sound from this incredibly unique switch.
+
+​
+
+It was a lot like a puzzle. As always the first step was to find the ground and work up from there. Thankfully it's apparent that no matter what orientation the switch is in, the path of current must lead to ground. This meant ground had to be in the center of the switch, always in the path of current. Then I just had to figure out how where to stick the corresponding volume, input, and tuner wires. Something must have stuck with me from all of the reading I had done about guitar wiring because I was able to get it right on my first try!
+
+_
+
+Another challenge was the physical act of soldering this bad boy together. I am used to soldering onto small boards but I was not used to being physically restricted by all of the barriers present in the small cut out for the wiring. I had to recruit a lot of extra hands and Iphone flash lights from my friends, but eventually and patiently it got done.
+
+​
+
+Sadly I can't play guitar but here is a video of my friend playing the final product!
+
+Contact Me
