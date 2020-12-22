@@ -1,0 +1,289 @@
+/* Small - <600px */
+@media (min-width: 0px) {
+    html {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 15px;
+        background-color: #f24333;
+        letter-spacing: 0.08em;
+        line-height: 2em;
+        -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
+        scroll-behavior: smooth;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .slope {
+        background-color: #18314d;
+        // outline: 2px solid #f24333;
+        position: relative;
+        z-index: 0;
+        margin: 0 0 13% 0;
+        padding: 2em 0 2em 0;
+        -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
+
+        &:before,
+        &:after {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 50%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            -webkit-backface-visibility: hidden; // for Chrome Windows
+            -webkit-background-clip: content-box;
+        }
+    }
+
+    // viget.com/articles/angled-edges-with-css-masks-and-transforms/
+    .negative-slope {
+        // background-color: #18314d;
+        &:before {
+            top: 0;
+            transform: skewY(1.5deg);
+            transform-origin: 100% 0;
+        }
+
+        &:after {
+            bottom: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 100%;
+        }
+    }
+
+    .positive-slope {
+        // background-color: #18314d;
+        &:before {
+            top: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 0 100%;
+        }
+
+        &:after {
+            bottom: 0;
+            transform: skewY(1.5deg);
+            transform-origin: 0 100%;
+        }
+    }
+
+    .card-slope {
+        // background-color: #18314d;
+        &:before {
+            top: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 0 100%;
+        }
+
+        &:after {
+            bottom: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 100% 0;
+        }
+    }
+
+    .slope h1 {
+        font-size: 3em;
+        color: #f24333;
+        margin: 10px 0 10px 0;
+    }
+
+    .slope p {
+        font-size: 1.1em;
+        color: rgb(235, 235, 235);
+        margin: 10px 0 10px 0;
+    }
+    
+    .link {
+        color: #f24333;
+    }
+
+    .pic {
+        position: relative;
+        margin: auto;
+        width: 100%;
+    }
+
+    .button-slanted {
+        border: 2px solid #f24333;
+        color: rgb(235, 235, 235);
+        text-align: center;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        margin: 10px;
+        display: inline-block;
+        -ms-transform: skewX(-20deg);
+        -webkit-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+        -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
+    }
+
+    .button-slanted-content {
+      -ms-transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+      transform: skewX(20deg);  
+      display: inline-block;
+      -webkit-backface-visibility: hidden;
+      -webkit-background-clip: content-box;
+    }
+
+    .card {
+        background-color: #18314d;
+        border: 3px solid #f24333;
+        overflow: hidden;
+        transition: all .2s ease-in-out;
+    }
+
+    .card:hover {
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(242,67,51,0.41);
+        -moz-box-shadow: 10px 10px 5px -4px rgba(242,67,51,0.41);
+        box-shadow: 10px 10px 5px -2px rgba(242,67,51,0.41);
+        transform: scale(1.02, 1.02);
+        
+    }
+
+    .card img {
+        transform: scale(1.1);
+        overflow: hidden;
+        width: 450px;
+        height: 300px;
+    }
+
+    .card .card-content p {
+        // background-color: rgb(235, 235, 235);
+        color: rgb(235, 235, 235);
+        font-weight: 500;
+    }
+
+    .card .card-content .title {
+        font-size: 1.9em;
+        color: #f24333;
+        margin-bottom: 5px;
+    }
+
+    .card .card-action {
+        position: relative;
+        bottom: 0;
+    }
+
+    .card .card-action i {
+        color: #f24333;
+        font-size: 30px;
+    }
+
+    .about a {
+        background: linear-gradient(to bottom, #f24333 0%, #f24333 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-y;
+        background-size: 0px 0px;
+        color: #f24333;
+        text-decoration: none;
+        // transition: background-size .2s;
+        transition: all .2s ease-in-out; 
+    }
+
+    .about a:hover {
+        color: rgb(235, 235, 235);
+        background-size: 100% 100%;
+    }
+
+    .row .button-slanted {
+        background: linear-gradient(to bottom, #f24333 0%, #f24333 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-y;
+        background-size: 0px 0px;
+        color: rgb(235, 235, 235);
+        text-decoration: none;
+        // transition: background-size .2s;
+        transition: all .2s ease-in-out; 
+    }
+
+    .row .button-slanted:hover {
+        // border: 2px soli;
+        background-size: 100% 100%;
+    }
+
+    .positive-slope p.label {
+        display: inline;
+        margin: 0;
+        font-size: 1em;;
+    }
+
+    .slope .row {
+        margin: 0;
+    }
+
+    .page-footer {
+        background-color: #18314d;
+        color: rgb(235, 235, 235);
+        font-size: 1.1em;
+        padding: 25px 0 25px 0;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    .footerContact {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #f24333;
+        margin: 0;
+    }
+
+    .credit {
+        // font-size: 1em;
+        margin: 6px 0 0 0;
+    }
+
+    .footerInfo {
+        // font-size: 1em;
+        margin: 6px 0 6px 0;
+    }
+
+    .page-footer a {
+        color: rgb(235, 235, 235);
+    }
+
+    .page-footer .grow {
+        font-size: 1.8em;
+        color: #f24333;
+        padding: 0 10px 0 10px;
+    }
+}
+
+/* Medium - <992px */
+@media (min-width: 600px) {
+   .pic {
+       width: 70%;
+   }
+}
+
+/* Large - <1200px */
+@media (min-width: 992px) {
+    .intro {
+        // padding: 30px 8% 30px 8%;
+    }
+
+    .slope h1 {
+        font-size: 4.3em;
+    }
+
+    .slope p {
+        font-size: 1.3em;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
+
+/* Extra Large - >1200px */
+@media (min-width: 1200px) {
+
+}
